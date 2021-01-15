@@ -1,0 +1,122 @@
+$primary: #A2792C !default;
+$primary-light: #AE9431 !default;
+$secondary:#E2C022 !default;
+$dark: #333333 !default;
+$black: #000000 !default;
+$white: #fff !default;
+
+$body-color: $dark !default;
+$theme-colors: ("white": $white) !default;
+
+$font-family-sans-serif: "Poppins",
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+
+$font-family-base: $font-family-sans-serif !default;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1440px);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1275px
+);
+
+$modal-xl: 1140px !default;
+$modal-lg: 910px !default;
+$modal-md: 500px !default;
+$modal-sm: 300px !default;
+
+$modal-header-padding-y: 1.875rem !default;
+$modal-header-padding-x: 2.25rem !default;
+$modal-header-padding: $modal-header-padding-y $modal-header-padding-x $modal-header-padding-y/2 !default;
+
+$modal-inner-padding: 1.875rem !default;
+// Margin between elements in footer, must be lower than or equal to 2 * $modal-inner-padding
+$modal-footer-margin-between: 0.5rem !default;
+$modal-content-border-width: 0 !default;
+
+$modal-backdrop-bg: $black !default;
+$modal-backdrop-opacity: .5 !default;
+
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
+$btn-font-weight: $font-weight-semi-bold !default;
+
+$component-active-bg: $primary !default;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base !default;
+$font-size-sm: $font-size-base * .875 !default;
+
+$line-height-lg: 1.5 !default;
+$line-height-sm: 1.5 !default;
+$line-height-base: 1.5 !default;
+
+$border-width: 1px !default;
+
+$border-radius: 6px !default;
+$border-radius-lg: 6px !default;
+$border-radius-sm: 6px !default;
+
+$border-radius-rounded: 42px !default;
+$border-radius-rounded-lg: 48px !default;
+$border-radius-rounded-sm: 32px !default;
+
+$input-btn-padding-y: .5rem !default;
+$input-btn-padding-x: 1rem !default;
+$input-btn-font-family: null !default;
+$input-btn-font-size: $font-size-base !default;
+$input-btn-line-height: $line-height-base !default;
+
+$input-btn-focus-width: .2rem !default;
+$input-btn-focus-color: rgba($component-active-bg, .25) !default;
+$input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-sm: .3125rem !default;
+$input-btn-padding-x-sm: 0.75rem !default;
+$input-btn-font-size-sm: $font-size-sm !default;
+$input-btn-line-height-sm: $line-height-sm !default;
+
+$input-btn-padding-y-lg: .6875rem !default;
+$input-btn-padding-x-lg: 1.5rem !default;
+$input-btn-font-size-lg: $font-size-lg !default;
+$input-btn-line-height-lg: $line-height-lg !default;
+
+$input-btn-border-width: $border-width !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold: 185 !default;
+
+
+$navbar-light-color:                $primary-light !default;
+$navbar-light-hover-color:          darken($primary-light, 5%) !default;
+$navbar-light-active-color:         darken($primary-light, 10%) !default;
+$navbar-light-disabled-color:       rgba($primary-light, .7) !default;
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 30 30'><path stroke='#{$black}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$navbar-light-toggler-border-color: transparent !default;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';

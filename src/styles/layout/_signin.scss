@@ -1,0 +1,24 @@
+.signin .form_box {
+    background-color: #fff;
+    padding: 50px 50px;
+
+    @include media-breakpoint-up(md) {
+        padding: 50px 150px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.container-login {
+    max-width: 910px;
+
+    @include media-breakpoint-down(md) {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

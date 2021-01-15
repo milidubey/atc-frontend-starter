@@ -1,0 +1,12 @@
+.navbar-toggler {
+    border-color: transparent !important;
+
+    &:focus {
+        outline: 0;
+    }
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}

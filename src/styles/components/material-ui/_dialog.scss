@@ -1,0 +1,61 @@
+.MuiPaper-root {
+    .MuiTypography-h6 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 46px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #4F4F4F;
+        font-family: "Poppins";
+    }
+
+    .MuiDialogTitle-root {
+        padding-top: 40px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .MuiDialogContent-root {
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 50px;
+        &.padded-normal {
+            padding-bottom: 8px;
+        }
+    }
+
+    .MuiDialogActions-root {
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 40px;
+    }
+    .MuiTypography-body1 {
+        font-family: $font-family-base;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
+.MuiDialog-root.padded-y-lg {
+    .MuiDialogTitle-root {
+        padding-top: 58px;
+    }
+    .MuiDialogActions-root {
+        padding-bottom: 64px;
+    }
+}
+.MuiDialog-root.text-center .MuiPaper-root {
+    .MuiTypography-h6 {
+        text-align: center;
+    }
+}
+.MuiDialog-root.text-right .MuiPaper-root {
+    .MuiTypography-h6 {
+        text-align: right;
+    }
+}
+
+.standard-width-dialog {
+    .MuiDialog-paperWidthMd {
+        max-width: 806px;
+    }
+}

@@ -1,0 +1,15 @@
+.modal-title {
+    font-size: 28px;
+    line-height: 1.34;
+    font-weight: 600;
+    color: $body-color;
+}
+.modal-content {
+    box-shadow: $box-shadow;
+}
+.modal-body {
+    padding: $modal-header-padding-y/2 $modal-header-padding-x $modal-header-padding-y;
+}
+.modal-footer {
+    padding: $modal-header-padding-y/2 $modal-header-padding-x $modal-header-padding-y;
+}

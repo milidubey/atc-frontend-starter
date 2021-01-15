@@ -1,0 +1,19 @@
+.dropdown-menu {
+    border: 0;
+    box-shadow: $box-shadow;
+}
+
+.dropdown-toggle {
+    &::after {
+        content: "\f107";
+        vertical-align: 0;
+        margin-left: 0.5rem;
+        border: 0;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

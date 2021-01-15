@@ -1,0 +1,67 @@
+.ant-form-item {
+    font-size: $input-btn-font-size;
+}
+.ant-form-item-label>label {
+    margin-bottom: initial;
+}
+.ant-input,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    @extend .form-control;
+}
+.ant-select-single:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input,
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input {
+    height: 100%;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector::after,
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+    line-height: $input-btn-line-height;
+}
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector::after,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+    line-height: $input-btn-line-height-lg;
+}
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector::after,
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+    line-height: $input-btn-line-height-sm;
+}
+.ant-input-affix-wrapper {
+    @extend .form-control;
+    display: flex;
+    .ant-input {
+        height: initial;
+        border-radius: initial;
+        border: 0;
+    }
+}
+.ant-input-lg,
+.ant-input-affix-wrapper-lg,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+    @extend .form-control-lg;
+}
+
+.ant-input-sm,
+.ant-input-affix-wrapper-sm,
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+    @extend .form-control-sm;
+}
+
+.ant-form-item-explain,
+.ant-form-item-extra {
+    @extend .small;
+}
+
+.ant-select-dropdown {
+    // margin-top: -15px;
+    // margin-left: -1px;
+    border: 1px solid #A2792C;
+    box-shadow: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: rgba(162, 121, 44, 0.19);
+}
